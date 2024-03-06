@@ -1,0 +1,38 @@
+:host {
+  display: block;
+  margin-top: 1rem;
+}
+
+mat-spinner {
+  margin: auto;
+}
+
+mat-paginator {
+  margin-top: 1rem;
+}
+
+.info-text {
+  text-align: center;
+}
+
+.post-image {
+  width: 100%;
+}
+
+.post-image img {
+  width: 100%;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+mat-card {
+  padding: 30px;
+}
+app-header a {
+  color: white !important;
+}
+app-header a.mat-accent {
+  color: #ff4081 !important;
+}
+.mat-mdc-text-field-wrapper {
+  background-color: transparent !important;
+}

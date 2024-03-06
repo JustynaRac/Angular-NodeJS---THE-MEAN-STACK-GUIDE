@@ -2,6 +2,10 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "tslib" : ["path/to/node_modules/tslib/tslib.d.ts"]
+    },
     "outDir": "./dist/out-tsc",
     "skipLibCheck": true,
     "esModuleInterop": true,
@@ -9,7 +13,7 @@
     "declaration": false,
     "experimentalDecorators": true,
     "moduleResolution": "node",
-    "importHelpers": true,
+    "importHelpers": false,
     "target": "ES2022",
     "module": "ES2022",
     "useDefineForClassFields": false,
